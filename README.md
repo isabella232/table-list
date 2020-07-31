@@ -8,25 +8,17 @@ This field plug-in allows for choice lists to be presented in the form of a tabl
 
 [![Download now](extras/download-button.png)](https://github.com/surveycto/table-list/raw/master/table-list.fieldplugin.zip)
 
-## Default SurveyCTO feature support
-
-| Feature / Property | Support |
-| --- | --- |
-| Supported field type(s) | `select_one` `select_multiple`|
-| Default values | No |
-| Custom constraint message | Yes |
-| Custom required message | Yes |
-| Read only | No |
-
-Using multiple pre-load data columns as labels with the search() function is also not supported. Instead, you will store a delimited table in a single column of pre-load data. See below and the [wiki](https://github.com/surveycto/table-list/wiki/Table-list-view-field-plugin) for more.
+### Data Format
+This plug-in works on a select_one or a select_multiple field.
 
 ## How to use
 
+### Getting startd
 1. Download the test form [extras/sample-form](https://github.com/surveycto/table-list/raw/master/extras/example_form/table-list%20sample%20folder.zip) from this repo and upload it to your SurveyCTO server.
 1. Download the [table-list.fieldplugin.zip](https://github.com/surveycto/table-list/raw/master/table-list.fieldplugin.zip) file from this repo, and attach it to the test form on your SurveyCTO server.
 1. Make sure to provide the correct parameters (see below).
 
-## Parameters
+### Parameters
 
 | **Key** | **Value** |
 | --- | --- |
@@ -48,6 +40,19 @@ Using multiple pre-load data columns as labels with the search() function is als
 | 1 | Digissim | Blue |
 
 You can read more about how to use this plugin [here](https://github.com/surveycto/table-list/wiki/Table-list-view-field-plugin) (includes a downloadable step-by-step breakdown of using this field plug-in).
+
+
+### Default SurveyCTO feature support
+
+| Feature / Property | Support |
+| --- | --- |
+| Supported field type(s) | `select_one` `select_multiple`|
+| Default values | No |
+| Custom constraint message | Yes |
+| Custom required message | Yes |
+| Read only | No |
+
+Using multiple pre-load data columns as labels with the search() function is also not supported. Instead, you will store a delimited table in a single column of pre-load data. See below and the [wiki](https://github.com/surveycto/table-list/wiki/Table-list-view-field-plugin) for more.
 
 ## More resources
 
