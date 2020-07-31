@@ -9,7 +9,7 @@ This field plug-in allows for choice lists to be presented in the form of a tabl
 [![Download now](extras/download-button.png)](https://github.com/surveycto/table-list/raw/master/table-list.fieldplugin.zip)
 
 ### Data Format
-This plug-in works on a select_one or a select_multiple field.
+This plug-in works on a [select_one](https://docs.surveycto.com/02-designing-forms/01-core-concepts/03h.field-types-select-one.html) or a [select_multiple](https://docs.surveycto.com/02-designing-forms/01-core-concepts/03i.field-types-select-multiple.html) field.
 
 ## How to use
 
